@@ -1,0 +1,39 @@
+#include <ros.h>
+#include <std_msgs/Int32.h>
+
+const int button1 = 8;
+const int button2 = 7;
+
+
+ros::NodeHandle nh;
+
+std_msgs::Int32 msg;
+ros::Publisher cardID("cardID", &msg);
+
+void setup() {
+
+  pinMode(button1, INPUT);
+  pinMode(button2, INPUT);
+
+  nh.initNode();
+  nh.advertise(cardID);
+
+}
+
+void loop() {
+
+  if( digitalRead(button1) == 1){
+    msg.data = 1;
+    cardID.publish(&msg);
+    delay(1000);
+  }
+
+  else if(digitalRead(button2) == 1){
+    msg.data = 0;
+    cardID.publish(&msg);
+    delay(1000);
+  }
+
+  nh.spinOnce();
+  
+}
