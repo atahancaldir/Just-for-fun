@@ -35,7 +35,7 @@ The folder structure and short explanations of the projects. Some projects might
 * [AlternatifBank Hackathon - Alternative POS Machine](/Hackathons/AlternatifBankHackathon%20-%20Alternative%20POS%20Machine/): An alternative POS machine software for blind people that double checks the contactless pay amount with voice assistant. The project won the 1st prize in Alternatif Bank's Unobstructed Banking Hackathon in 2020.
 * [CodeMamak Hackathon - Sina](/Hackathons/CodeMamak%20Hackathon%20-%20Sina/): Customer recording software with GUI that enables the public places to report to ministry of health in case of a pandemic such as COVID-19. It has two separate versions; first version is for public places to take records, and the second version for the ministry to manage the records.
 * [CodeMaster Hackathon](/Hackathons/CodeMasterHackathon/): RESTful API with Python for a complex website.
-* [Yandex Hackathon - Apollo Application](/Hackathons/Yandex%20Hackathon%20-%20Apollo%20Application/): A mobile application concept with GUI. It is basically the "Pokemon GO of music" where musicians and users can pin songs to specific places on map, or discover the musics their nearby. The project won the Honor Team award in Yandex's MusicHackOzyegin Hackathon in 2020
+* [Yandex Hackathon - Apollo Application](/Hackathons/Yandex%20Hackathon%20-%20Apollo%20Application/): A mobile application concept with GUI. It is basically the "Pokemon GO of music" where musicians and users can pin songs to specific places on map, or discover the musics their nearby. The project won the Honor Team award in Yandex's MusicHackOzyegin Hackathon in 2020.
 
 ###### Websites
 
