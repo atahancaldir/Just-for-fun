@@ -4,3 +4,4 @@ __pycache__/
 qtcreator-*
 *.user
 *.exe
+*.class
