@@ -47,7 +47,7 @@ def sorgu():
 			global soket
 			global baglanti
 			soket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-			HOST = "31.170.164.53"
+			HOST = "localhost"
 			port = 1234
 			soket.connect((HOST,port))
 			while True:

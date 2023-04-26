@@ -35,7 +35,7 @@ def sorgu():
 	global HOST
 
 	kullanıcı_adı=nick.get()
-	HOST = "31.170.164.53"
+	HOST = "localhost"
 	if not kullanıcı_adı or kullanıcı_adı.isspace() or not HOST or HOST.isspace():
 		tm.showerror("Giriş hatası","Değerleri doğru giriniz!!!")
 	elif len(kullanıcı_adı)>10:
