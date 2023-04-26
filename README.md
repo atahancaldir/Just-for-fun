@@ -10,6 +10,8 @@ Personal projects by Atahan Çaldır. Most of them are developed in middle schoo
 
 Due to the large number of projects, they are categorized into dedicated folders.
 
+**Each project's own detailed README file can be found in their own directories!**
+
 ### Outline
 
 The folder structure and short explanations of the projects. Some projects might have their own readme files in their folders.
